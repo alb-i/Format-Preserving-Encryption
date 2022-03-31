@@ -95,3 +95,12 @@ Also, another [implementation in Go](https://github.com/capitalone/fpe) is great
 
 1. Make the API simpler
 2. More effective implementation
+
+## Batch-ff3
+
+The batch-ff3 program reads line-by-line data from a given plaintext file, encrypts each line using FF3 and then spits out a line containing the ciphertext.
+
+Ex:
+```
+./batch-ff3 EF4359D8D580AA4F7F036D6F04FC6A942B7E151628AED2A6ABF7158809CF4F3C 9A768A92F60E12D8 36 test-plaintext.txt
+```
